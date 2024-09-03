@@ -3,5 +3,14 @@
 // to install the node modules and
 // npm run dev
 // to launch your react project in your browser
-var React = require("react");
-var ReactDOM = require("react-dom");
+import React from "react";
+import ReactDOM from "react-dom";
+
+ReactDOM.render(
+    <div>
+        <h1>
+            Hello World.
+        </h1>
+    </div>,
+    document.getElementById("root")
+);
